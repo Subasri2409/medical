@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_1"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_select_visit_slot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a time slot for direct visit:"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:padding="16dp" />
+
+    <GridLayout
+        android:id="@+id/grid_visit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <!-- Time Slot 1 -->
+        <Button
+            android:id="@+id/btn_s1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="09:00 AM - 10:00 AM"
+            android:layout_margin="8dp"/>
+
+        <!-- Time Slot 2 -->
+        <Button
+            android:id="@+id/btn_s2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="11:00 AM - 12:00 PM"
+            android:layout_margin="8dp"/>
+
+        <!-- Time Slot 3 -->
+        <Button
+            android:id="@+id/btn_s3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="01:00 PM - 02:00 PM"
+            android:layout_margin="8dp"/>
+
+        <!-- Time Slot 4 -->
+        <Button
+            android:id="@+id/btn_s4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:text="03:00 PM - 04:00 PM"
+            android:layout_margin="8dp"/>
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_book_visit_slot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book Visit Slot"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

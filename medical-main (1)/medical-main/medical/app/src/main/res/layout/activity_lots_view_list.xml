@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lots_view_list"
+    android:background="@drawable/img_7"
+    >
+
+
+    <ImageButton
+        android:id="@+id/docvist"
+        android:layout_width="126dp"
+        android:layout_height="119dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="368dp"
+        android:contentDescription="Description of your appointment"
+        android:foregroundGravity="center"
+        android:scaleType="fitStart"
+        android:src="@drawable/doc_home_visit" />
+
+    <ImageButton
+        android:id="@+id/videobutton"
+        android:layout_width="100dp"
+        android:layout_height="144dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="67dp"
+        android:contentDescription="Description of your video"
+        android:scaleType="fitXY"
+        android:src="@drawable/video_call" />
+
+    <ImageButton
+        android:id="@+id/chatsupport"
+        android:layout_width="137dp"
+        android:layout_height="129dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="131dp"
+        android:layout_marginBottom="467dp"
+        android:contentDescription="Description of your chat"
+        android:foregroundGravity="center"
+        android:scaleType="fitStart"
+        android:src="@drawable/img_10" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="126dp"
+        android:layout_height="129dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="254dp"
+        android:layout_marginTop="357dp"
+        android:contentDescription="Description of your appointment"
+        android:foregroundGravity="center"
+        android:scaleType="fitStart"
+        android:src="@drawable/appointment" />
+
+
+</RelativeLayout>
